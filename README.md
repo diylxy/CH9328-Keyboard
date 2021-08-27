@@ -17,11 +17,14 @@ I wish my English skill is good enough to translate this document.
 配置软件和datasheet在extra目录里面，用来修改波特率或描述等参数。(默认波特率为9600).  
 在ESP8266上测试通过（Arduino官方板没试过，因为没有。哪位有时间试一下，如果有问题可以在GitHub上提交issue）  
 不要使用ESP8266的IO9， 有BUG  
-作者b站主页：https://space.bilibili.com/213123506  
 
+作者b站主页：https://space.bilibili.com/213123506   
+
+//GitHub的adoc格式好奇怪，还是用md吧
+  
 == License ==
 
-Copyright (c) Lxy <1452206376@qq.com>. All right reserved.
+Copyright (c) Lxy <1452206376@qq.com>. All right reserved.  
 Original code (pre-library): Copyright (c) 2011, Peter Barrett
 
 This library is free software; you can redistribute it and/or

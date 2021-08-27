@@ -1,12 +1,12 @@
 /*
  * CH9328Keyboard Library example(Hello World).
  * CH9328键盘库范例程序
- * ===============English Ver.================== 
+ * ===============English Ver.=================== 
  * Connect your CH9328's RST to Arduino/ESP8266/ESP32's any GPIO and 
  * connect your CH9328's RxD to Arduino/ESP8266/ESP32's TxD.
  * Maybe you can use a software serial, but I haven't tested it.
  * Tested on ESP8266.
- * ==================中文原版=====================
+ * ==================中文原版===================== 
  * CH9328的复位连接到Arduino的任意一引脚，RxD连到TxD
  * 可能可以用软件串口，但是我还没试过。
  * 在ESP8266上测试通过。
