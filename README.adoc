@@ -1,4 +1,4 @@
-#####======English ver.======
+======English ver.======
 
 USB HID Keyboard using WCH's CH9328 chip. It is almost compatible with Arduino Keyboard library.
 
@@ -10,7 +10,7 @@ Tested on ESP8266
 
 I wish my English skill is good enough to translate this document.  
 
-#####=========中文版==========  
+=========中文版==========  
 
 在Arduino上使用CH9328 USB转HID键盘芯片，除了初始化外与Arduino Keyboard完全兼容.    
 你需要把CH9328的IO1和IO2接地（IO1可选，如果不需要全速USB则不需要接地，IO2接地表示HID透传模式）.  
@@ -19,7 +19,7 @@ I wish my English skill is good enough to translate this document.
 不要使用ESP8266的IO9， 有BUG  
 作者b站主页：https://space.bilibili.com/213123506  
 
-####== License ==
+== License ==
 
 Copyright (c) Lxy <1452206376@qq.com>. All right reserved.
 Original code (pre-library): Copyright (c) 2011, Peter Barrett
