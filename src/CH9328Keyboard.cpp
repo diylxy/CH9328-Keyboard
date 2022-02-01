@@ -36,7 +36,7 @@ void CH9328Keyboard::begin(HardwareSerial *_Serial, uint8_t _pinRST, uint32_t _b
 	this->_Serial = _Serial;
 	pinRST = _pinRST;
 	baud = _baud;
-	_Serial->begin(baud);
+	_Serial->begin(baud, SERIAL_8N1, SERIAL_TX_ONLY);
 	reset();
 }
 
