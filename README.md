@@ -16,7 +16,7 @@ I wish my English skill is good enough to translate this document.
 你需要把CH9328的IO1和IO2接地（IO1可选，如果不需要全速USB则不需要接地，IO2接地表示HID透传模式）.  
 配置软件和datasheet在extra目录里面，用来修改波特率或描述等参数。(默认波特率为9600).  
 在ESP8266上测试通过（Arduino官方板没试过，因为没有。哪位有时间试一下，如果有问题可以在GitHub上提交issue）  
-不要使用ESP8266的IO9， 有BUG  
+ESP8266的IO9可能与看门狗有关，解决方案：  https://github.com/lxydiy/CH9328-Keyboard/issues/3#issue-1120479945  
 
 作者b站主页：https://space.bilibili.com/213123506   
 
